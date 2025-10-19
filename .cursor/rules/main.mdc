@@ -1,0 +1,6 @@
+---
+alwaysApply: true
+---
+
+Do not create or update any README.md or any other documentation files.
+Do not try to test your changes, user will test and will tell you if there are any bugs

@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 from sqlalchemy import text
 from app.core.database import get_db
-from app.schemas.health_response import HealthResponse
+from app.dtos.response import HealthResponse
 
 router = APIRouter()
 
